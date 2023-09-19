@@ -1,4 +1,4 @@
-//2.Given array of n elements,move all positive elements to beginning and all negative elements to end
+//Given array of n elements,move all positive elements to beginning and all negative elements to end
 //But order of input array should be followed
 import java.util.*;
 public class MyClass {
