@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class MyClass {
-    static void encryption(int arr[],int n){
+    static void replace(int arr[],int n){
     int max=arr[n-1];
     arr[n-1]=0;
     for(int i=n-2;i>=0;i--){
@@ -16,7 +16,7 @@ public class MyClass {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        encryption(arr,n);
+        replace(arr,n);
         for(int i=0;i<n;i++)
             System.out.print(arr[i]+" ");
     }
