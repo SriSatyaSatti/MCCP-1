@@ -7,7 +7,7 @@ public class MyClass {
             int m=(l+u)/2;
             if(a[m]==k)
             return m;
-            else if(a[l]<a[m]){
+            else if(a[l]<=a[m]){
                 if(a[l]<=k && a[m]>=k)
                 u=m-1;
                 else
@@ -15,9 +15,9 @@ public class MyClass {
             }
             else{
                 if(a[m]<=k && a[u]>=k)
-                l=m-1;
+                l=m+1;
                 else
-                u=m+1;
+                u=m-1;
             }
         }
         return -1;
