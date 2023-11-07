@@ -1,4 +1,4 @@
-// Two sum problem for unsorted data using hashmap
+// Two sum problem for unsorted data return indices
 import java.util.Scanner;
 
 public class MyClass{
